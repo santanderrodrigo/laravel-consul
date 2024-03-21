@@ -1,0 +1,22 @@
+{
+    "name": "santanderrodrigo/laravel-consul",
+    "description": "integration with laravel consul",
+    "type": "library",
+    "require": {
+        "guzzlehttp/guzzle": "7.9.x-dev",
+        "dcarbone/php-consul-api": "dev-main"
+    },
+    "license": "MIT License",
+    "autoload": {
+        "psr-4": {
+            "Santanderrodrigo\\LaravelConsul\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Rodrigo Santander",
+            "email": "rodrigo_01@elalambiquesauceno.com.ar"
+        }
+    ],
+    "minimum-stability": "dev"
+}
